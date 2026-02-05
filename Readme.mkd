@@ -1,0 +1,72 @@
+
+# Simulador de Sumador–Restador de 4 Bits
+
+**Autor:** César Alberto Mora Duarte  
+**Lenguaje:** Python 3  
+**Tema:** Lógica Digital – Sistemas Combinacionales  
+
+---
+
+## Descripción
+
+Simula un **sumador–restador binario de 4 bits** usando únicamente compuertas **AND, OR y NOT**.  
+La **resta** se realiza mediante **complemento a dos**.  
+Permite comprender el funcionamiento de sumadores completos y su interconexión en cascada.
+
+---
+
+## Requisitos
+
+- Python 3.x  
+- Editor de texto o IDE
+
+---
+
+## Ejecución
+
+1. Guardar `sumador_restador_4bits_documentado.py` en una carpeta.  
+2. Abrir terminal en esa carpeta.  
+3. Ejecutar:
+
+```bash
+python sumador_restador_4bits_documentado.py
+```
+
+Se mostrarán ejemplos de suma y resta.
+
+---
+
+## Uso
+
+### Definir operandos
+```python
+A = int_to_bits(5)  # Operando A (0–15)
+B = int_to_bits(3)  # Operando B (0–15)
+```
+
+### Operaciones
+- **Suma:** `sumador_restador_4bits(A, B, 0)`  
+- **Resta:** `sumador_restador_4bits(A, B, 1)`
+
+### Salida
+- `result` → Lista de 4 bits (LSB primero)  
+- `carry_out` → Acarreo final (solo suma)
+
+**Ejemplo en consola:**
+```
+Suma 5 + 3 = 8 Carry: 0
+Resta 5 - 3 = 2
+```
+
+---
+
+## Consideraciones
+
+- XOR se construye con AND, OR y NOT.  
+- Resta mediante complemento a dos.  
+
+---
+
+## Autor y Contacto
+
+César Alberto Mora Duarte – cesar.mora01@usa.edu.co
