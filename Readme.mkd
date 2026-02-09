@@ -3,7 +3,6 @@
 
 **Autor:** César Alberto Mora Duarte  
 **Lenguaje:** Python 3  
-**Tema:** Lógica Digital – Sistemas Combinacionales  
 
 ---
 
